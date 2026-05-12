@@ -6,19 +6,19 @@ import Link from "next/link";
 
 const projects = [
   {
-    title: "E-Commerce Website",
+    title: "Dashboard Monitoring Network",
     description:
-      "Website toko online dengan fitur keranjang belanja, pembayaran, dan manajemen produk.",
+      "Website memonitoring jaringan seperti bandwith, kecepatan internet, latency, dan lain lain.",
     image: null,
-    tags: ["Next.js", "Tailwind", "Supabase"],
+    tags: ["Next.js", "Tailwind", "NeonDB", "Chart.js", "Python"],
     link: "#",
   },
   {
-    title: "Task Manager App",
+    title: "Dashboard Bank Mini Digital",
     description:
-      "Aplikasi manajemen tugas dengan fitur drag & drop, deadline reminder, dan kolaborasi tim.",
+      "Dashboard bank mini digital untuk memonitoring transaksi, saldo nasabah, kas, dan traffic.",
     image: null,
-    tags: ["React", "Node.js", "MongoDB"],
+    tags: ["Next.js", "Tailwind", "Supabase", "PapaParse", "Chart.js"],
     link: "#",
   },
   {

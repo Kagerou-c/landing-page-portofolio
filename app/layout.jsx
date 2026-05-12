@@ -7,7 +7,7 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "John Doe — Portfolio",
+  title: "Azka Putra — Portfolio",
   description:
     "Personal portfolio website showcasing my skills, projects, and experience.",
 };

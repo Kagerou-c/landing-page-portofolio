@@ -52,18 +52,18 @@ export default function Hero() {
           <motion.h1 
           className="hero-title"
           variants={itemVariants(0.5, 1)}
-          >Hi, I'm <span className="gradient-text">John Doe</span>
+          >Hi, I'm <span className="gradient-text">Azka Putra</span>
           </motion.h1>
           <motion.p 
           className="hero-subtitle"
           variants={itemVariants(0.6, 1)}
-          >Web Developer & Designer</motion.p>
+          >Front-end Developer & Network Engineer</motion.p>
           <motion.p 
           className="hero-description"
           variants={itemVariants(0.7, 1)}
           >
-            Seorang pelajar yang passionate di bidang web development. Membangun
-            pengalaman digital yang menarik dan fungsional.
+            Seorang pelajar yang passionate di bidang web development dan jaringan. Membangun
+            pengalaman nyaman bagi pengguna.
           </motion.p>
           <motion.div 
           className="hero-actions"

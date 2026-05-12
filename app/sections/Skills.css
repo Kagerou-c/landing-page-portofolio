@@ -9,14 +9,17 @@
 }
 
 .skill-icon {
-  padding: 20px 20px 0;
-  font-size: 2rem;
+  padding: 15px 15px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .skill-name {
-  font-size: 1.05rem;
+  font-size: 1rem;
   font-weight: 600;
   margin-bottom: 12px;
+  text-align: center;
 }
 
 .skill-bar {

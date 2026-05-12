@@ -2,14 +2,15 @@
 import Card from "../components/Card";
 import "./Skills.css";
 import { motion } from "framer-motion";
+import { SiHtml5, SiCss, SiJavascript, SiReact, SiNextdotjs, SiFramer } from "@icons-pack/react-simple-icons";
 
 const skills = [
-  { name: "HTML", icon: "🌐", level: 90 },
-  { name: "CSS", icon: "🎨", level: 85 },
-  { name: "JavaScript", icon: "⚡", level: 80 },
-  { name: "React", icon: "⚛️", level: 75 },
-  { name: "Next.js", icon: "▲", level: 70 },
-  { name: "Figma", icon: "🎯", level: 65 },
+  { name: "HTML", icon: SiHtml5, color: "#E34F26", level: 90 },
+  { name: "CSS", icon: SiCss, color: "#1572B6", level: 85 },
+  { name: "JavaScript", icon: SiJavascript, color: "#F7DF1E", level: 88 },
+  { name: "React", icon: SiReact, color: "#61DAFB", level: 83 },
+  { name: "Next.js", icon: SiNextdotjs, color: "#000000", level: 85 },
+  { name: "Framer Motion", icon: SiFramer, color: "#0055FF", level: 75 },
 ];
 
 const skillVariantsItem = {
@@ -57,7 +58,7 @@ export default function Skills() {
               variants={skillVariantsItem}
               header={
                 <div className="skill-icon">
-                  <span>{skill.icon}</span>
+                  <skill.icon size={32} color={skill.color} />
                 </div>
               }
               content={
