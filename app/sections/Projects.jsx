@@ -6,20 +6,20 @@ import Link from "next/link";
 
 const projects = [
   {
-    title: "Dashboard Monitoring Network",
+    title: "Dashboard Monitoring Network (on Progres)",
     description:
       "Website memonitoring jaringan seperti bandwith, kecepatan internet, latency, dan lain lain.",
     image: null,
     tags: ["Next.js", "Tailwind", "NeonDB", "Chart.js", "Python"],
-    link: "#",
+    link: "",
   },
   {
     title: "Dashboard Bank Mini Digital",
     description:
       "Dashboard bank mini digital untuk memonitoring transaksi, saldo nasabah, kas, dan traffic.",
     image: null,
-    tags: ["Next.js", "Tailwind", "Supabase", "PapaParse", "Chart.js"],
-    link: "#",
+    tags: ["Next.js", "Tailwind", "Supabase", "Framer Motion", "Chart.js"],
+    link: "https://dashboard-bank-mini-budi-bhakti.netlify.app/",
   },
   {
     title: "Portfolio Website",
@@ -30,12 +30,12 @@ const projects = [
     link: "#",
   },
   {
-    title: "Weather Dashboard",
+    title: "Speed Test Jaringan (on Progres)",
     description:
-      "Dashboard cuaca real-time dengan visualisasi data dan prediksi mingguan.",
+      "Speed test jaringan untuk mengukur kecepatan internet.",
     image: null,
-    tags: ["React", "API", "Chart.js"],
-    link: "#",
+    tags: ["HTML", "CSS", "JavaScript", "API"],
+    link: "",
   },
 ];
 
@@ -61,25 +61,25 @@ const MotionLink = motion.create ? motion.create(Link) : motion(Link);
 export default function Projects() {
   return (
     <section id="projects" className="projects">
-      <motion.div 
-      variants={projectVariantsContainer} 
-      initial="initial" 
-      whileInView="animate" 
-      transition={projectVariantsContainer.transition} 
-      viewport={{ once: true, amount: 0.2 }} 
-      className="container">
-        <motion.h2 
-        variants={projectVariantsItem}
-        transition={projectVariantsItem.transition}
-        viewport={{ once: true }}
-        className="section-title">
+      <motion.div
+        variants={projectVariantsContainer}
+        initial="initial"
+        whileInView="animate"
+        transition={projectVariantsContainer.transition}
+        viewport={{ once: true, amount: 0.2 }}
+        className="container">
+        <motion.h2
+          variants={projectVariantsItem}
+          transition={projectVariantsItem.transition}
+          viewport={{ once: true }}
+          className="section-title">
           My <span className="gradient-text">Projects</span>
         </motion.h2>
-        <motion.p 
-        variants={projectVariantsItem}
-        transition={projectVariantsItem.transition}
-        viewport={{ once: true }}
-        className="section-subtitle">
+        <motion.p
+          variants={projectVariantsItem}
+          transition={projectVariantsItem.transition}
+          viewport={{ once: true }}
+          className="section-subtitle">
           Beberapa project yang sudah saya kerjakan
         </motion.p>
 
